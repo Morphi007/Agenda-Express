@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+	padding: 0;
+}
+/*
+body{
+    background: url(../fondo/agen.jpg);
+
+}
+*/
+.tittle{
+text-align: center;
+margin: 1px;
+background-color: #00fa2afd;
+color: rgb(51, 2, 116);
+
+}
+
+.forms input{
+ margin-top:45px;
+ margin-left: 500px;
+}
+
+.input{
+width: 25%;
+padding:15px;
+border-radius: 44px;
+}
+
+.agent{
+  position: relative;
+    top: 40px;
+  
+    width: 820px;
+    left: 27%;
+    color: rgb(245, 1, 1);
+    padding: 1%;
+    overflow: scroll;
+    overflow: auto;
+    height: 350px;
+    overflow-x:hidden;
+
+}
+
+.btn-enviar{
+  margin-left: 38rem;
+  margin-top:12px;
+  background-color: #a1072d;
+  color: aliceblue;
+  border:none;
+  border-radius: 5px;
+  font-size: 27px;
+
+  
+}
+.btn-enviar:hover {
+  background-color: rgba(8, 240, 0, 0.336);
+  color:#670b9c;
+}
+
+
+table{
+  font-family: 'Dancing Script';
+  color: #6D214F; 
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 19px;
+  
+}
+
+
+td {
+  border: 1px solid rgba(245, 6, 205, 0.267);
+  padding: 2%;
+color:#26ce9b;}
+
+
+
+
+
+

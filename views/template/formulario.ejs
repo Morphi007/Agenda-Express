@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+<title>Agenda servidor</title>
+</head>
+<header class="tittle">
+    <h1>Agenda multicapas</h1>
+</header>
+<div class="forms"> 
+<form method="POST" id="form" > 
+   <input type="text" placeholder="Nombre" id="name" class="input" required> 
+   <input type="text" placeholder="Apellido" id="lastname" class="input" required>   
+    <input type="number" placeholder="telefono" id="telephone" class="input" required>   
+    <br>
+    <button type="submit" id="btn-enviar" class="btn-enviar">enviar</button>
+  </form>
+</div>
+<div class="agent">
+    <table >
+        <thead>
+            <tr>
+               <th>Nombre</th>
+               <th>Apellido</th>
+               <th>Telefono</th>
+            </tr>
+        <tbody id="table"></tbody>
+        </thead>
+        <template id="crud-template">
+            <tr>
+              <td class="nombre"></td>
+              <td class="apellido"></td>
+              <td class="telefono"></td>
+              </tr>
+          </template>
+       
+    </table>
+</div>
+<script src="/js/contactos.js"></script>
+<script src="/js/agenda.js"></script>
+
